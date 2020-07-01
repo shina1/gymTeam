@@ -153,11 +153,12 @@ nav ul li a {
 /*teams section styling  */
 .team-grp {
   margin: 0 auto;
+  flex: 1;
 }
 .team-grp .crds {
   margin-top: 20px;
   margin-bottom: 20px;
-  padding-left: 40px;
+  /* padding-left: 40px; */
 }
 .card-footer {
   background: var(--tmOrange);
@@ -254,12 +255,13 @@ nav ul li a {
 }
 .right form {
   padding: 0;
-  margin: 10px;
+  margin: 20px 10px 10px 10px;
 }
 form input {
   border: 1px solid #c9c8c9;
   box-sizing: border-box;
   border-radius: 5px;
+  width: 150px;
 }
 form label {
   font-weight: bold;
