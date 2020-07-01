@@ -388,10 +388,6 @@ form label {
     flex: 1;
   }
   .team-grp {
-    border: 2px solid red;
     justify-content: center;
-  }
-  .team-grp .crds {
-    margin-left: 60px;
   }
 }
