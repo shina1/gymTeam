@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BEFIT GYM| Our Team</title>
     <link rel="stylesheet" href="styles/bootstrap-css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/bootstrap-css/animate.min.css" />
     <link rel="stylesheet" href="styles/custom-css/team.css" />
   </head>
   <body>
@@ -54,21 +55,25 @@
     <div class="container-fluid">
       <div class="row my-row">
         <div class="col-md-12 banner">
-          <h1>
+          <h1 class="animate__animated animate__fadeInUp animate__delay-1s">
             MEET OUR <br />
             STRONG TEAM
           </h1>
           <button type="button" class="btn my-btn">READ MORE</button>
         </div>
       </div>
-      <div class="overlay">
-        <h1>OUR <span>TEAM</span></h1>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="overlay"></div>
+        </div>
       </div>
       <div class="row">
         <div class="col-md-10 team-grp">
           <div class="teams">
             <div class="row justify-content-around">
-              <div class="col-sm-12 col-md-6 col-lg-4 crds">
+              <div
+                class="col-sm-12 col-md-6 col-lg-4 crds animate__animated animate__slideInDown animate__delay-1s"
+              >
                 <div class="card">
                   <img src="img/image 24.png" class="card-img-top" alt="..." />
                   <div class="card-body">
@@ -83,7 +88,9 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-4 crds">
+              <div
+                class="col-sm-12 col-md-6 col-lg-4 crds animate__animated animate__slideInUp animate__delay-1s"
+              >
                 <div class="card">
                   <img src="img/image 22.png" class="card-img-top" alt="..." />
                   <div class="card-body">
@@ -98,7 +105,9 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-4 crds">
+              <div
+                class="col-sm-12 col-md-6 col-lg-4 crds animate__animated animate__slideInDown animate__delay-1s"
+              >
                 <div class="card">
                   <img src="img/image 23.png" class="card-img-top" alt="..." />
                   <div class="card-body">
@@ -169,7 +178,7 @@
         <div class="col-md-12 col-sm-12 newsletter">
           <div class="row">
             <div class="col-md-10 col-sm-10 contact">
-              <h2>
+              <h2 class="wow animate__fadeInUp animate__delay-1s">
                 WANT TO LIVE YOUR<br />
                 BEST LIFE
               </h2>
@@ -292,5 +301,9 @@
     <script src="js/bootstrap-js/jquery.js"></script>
     <script src="js/bootstrap-js/popper.js"></script>
     <script src="js/navBar.js"></script>
+    <script src="js/bootstrap-js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

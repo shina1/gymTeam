@@ -153,7 +153,7 @@ nav ul li a {
 .team-grp {
   margin: 0 auto;
   flex: 1;
-  margin-top: -50px;
+  margin-top: -190px;
   z-index: -1;
 }
 .team-grp .card {
@@ -205,7 +205,7 @@ nav ul li a {
 /* --------------- Conatct section------------------- */
 .newsletter {
   height: auto;
-  background-image: url("../../img/ne.png");
+  background-image: url("../../img/newsletter.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -290,23 +290,13 @@ form label {
 }
 /* overlay styling */
 .overlay {
-  background: rgba(255, 255, 255, 0.94);
-  mix-blend-mode: multiply;
   height: 200px;
-  text-align: center;
+  background-image: url("../../img/OUR\ TEAM.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   position: relative;
-  margin-top: -200px;
-  width: 100%;
-}
-
-.overlay h1 {
-  font-size: 250px;
-  line-height: 202px;
-  color: rgba(0, 0, 0, 0.1);
-}
-.overlay h1 span {
-  color: var(--tmOrange);
-  mix-blend-mode: multiply;
+  bottom: 90%;
 }
 /* ------------------ Footer styling-------------------------- */
 #footer {
@@ -422,7 +412,7 @@ form label {
   }
   .team-grp {
     justify-content: center;
-    margin-top: -5px;
+    margin-top: -190px;
   }
   form input {
     width: 100%;
@@ -438,7 +428,7 @@ form label {
   .banner h1 {
     font-size: 25px;
     line-height: 22px;
-    margin: 178px 0 0 20px;
+    /* margin: 178px 0 0 20px; */
   }
   .my-btn {
     font-size: 12px;
@@ -447,13 +437,9 @@ form label {
     width: 150px;
   }
   .overlay {
-    height: auto;
-    margin-top: -190px;
-  }
-  .overlay h1 {
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 52px;
+    position: relative;
+    height: 100px;
+    bottom: 210%;
   }
   /* .newsletter {
     height: auto;
