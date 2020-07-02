@@ -419,8 +419,8 @@ form label {
     text-align: center;
   }
   .banner h1 {
-    font-size: auto;
-    line-height: 42px;
+    font-size: 25px;
+    line-height: 22px;
     /* align-self: center; */
     /* margin: 138px 0 0 80px; */
   }
