@@ -124,9 +124,9 @@ nav ul li a {
   height: 125vh;
   background-image: url("../../img/bannerImg.png");
   background-repeat: no-repeat;
-  object-fit: cover;
-  object-position: center;
-  background-size: 100% 100%;
+  /* object-fit: cover; */
+  background-position: center;
+  background-size: contain;
 }
 .banner h1 {
   font-style: normal;
@@ -153,7 +153,7 @@ nav ul li a {
 .team-grp {
   margin: 0 auto;
   flex: 1;
-  margin-top: -90px;
+  margin-top: -50px;
   z-index: -1;
 }
 .team-grp .card {
@@ -207,8 +207,8 @@ nav ul li a {
   height: auto;
   background-image: url("../../img/ne.png");
   background-repeat: no-repeat;
-  object-fit: cover;
-  object-position: center;
+  background-size: 100% 100%;
+  background-position: center;
 }
 .contact {
   height: auto;
@@ -432,8 +432,8 @@ form label {
     height: 75vh;
     text-align: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    object-position: center;
+    background-size: contain;
+    background-position: center;
   }
   .banner h1 {
     font-size: 25px;
@@ -448,19 +448,20 @@ form label {
   }
   .overlay {
     height: auto;
-    margin-top: -20px;
+    margin-top: -190px;
   }
   .overlay h1 {
     font-weight: bold;
     font-size: 50px;
     line-height: 52px;
   }
-  .newsletter {
+  /* .newsletter {
     height: auto;
+    text-align: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    object-position: center;
-  }
+    background-position: center;
+  } */
 }
 @media (max-width: 768px) {
 }
