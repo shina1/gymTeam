@@ -412,14 +412,4 @@ form label {
   }
 }
 @media (max-width: 768px) {
-  .banner {
-    height: 75vh;
-    text-align: center;
-  }
-  .banner h1 {
-    font-size: 36px;
-    line-height: 42px;
-    /* align-self: center; */
-    /* margin: 138px 0 0 80px; */
-  }
 }
