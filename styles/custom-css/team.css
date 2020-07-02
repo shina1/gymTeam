@@ -18,7 +18,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+body {
+  font-family: Bebas Neue;
+}
 /* ############################### styling for the header  ####################################### */
 .navbar {
   background-color: #ffffff !important;
@@ -44,7 +46,6 @@ nav ul {
 }
 
 nav ul li {
-  font-family: "Roboto", sans-serif;
   font-size: 13px;
   color: var(--tmBlack);
   padding-right: 1rem;
@@ -120,14 +121,14 @@ nav ul li a {
 }
 /* ----------------------- banner styling--------------------------------- */
 .banner {
-  height: 70vh;
-  margin-top: 110.5px;
+  height: 125vh;
   background-image: url("../../img/bannerImg.png");
   background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
   background-size: 100% 100%;
 }
 .banner h1 {
-  font-family: Manrope;
   font-style: normal;
   font-weight: bold;
   font-size: 56px;
@@ -136,7 +137,7 @@ nav ul li a {
   flex: none;
   order: 0;
   align-self: center;
-  margin: 138px 0 0 120px;
+  margin: 238px 0 0 120px;
 }
 .my-btn {
   display: none;
@@ -152,18 +153,24 @@ nav ul li a {
 .team-grp {
   margin: 0 auto;
   flex: 1;
-  margin-top: -60px;
+  margin-top: -90px;
   z-index: -1;
 }
-.team-grp .crds {
+.team-grp .card {
   margin-top: 20px;
   margin-bottom: 20px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.18);
   /* padding-left: 40px; */
+}
+.team-grp .card:hover {
+  cursor: pointer;
 }
 .card-footer {
   background: var(--tmOrange);
   display: flex;
   justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .card-footer span {
   color: var(--tmWhite);
@@ -179,15 +186,18 @@ nav ul li a {
 .card-body:hover {
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.18);
 }
+.card-footer .icons {
+  width: 95px;
+  height: 15px;
+}
 .card-footer .icons img {
   width: 20px;
   height: 20px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 .card-text {
-  font-family: Bebas Neue;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 20px;
   line-height: 28px;
   color: #ff4301;
@@ -197,7 +207,8 @@ nav ul li a {
   height: auto;
   background-image: url("../../img/ne.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .contact {
   height: auto;
@@ -284,10 +295,12 @@ form label {
   height: 200px;
   text-align: center;
   position: relative;
-  margin-top: -120px;
+  margin-top: -200px;
+  width: 100%;
 }
+
 .overlay h1 {
-  font-size: 150px;
+  font-size: 250px;
   line-height: 202px;
   color: rgba(0, 0, 0, 0.1);
 }
@@ -415,14 +428,17 @@ form label {
     width: 100%;
   }
   .banner {
-    height: auto;
+    margin-top: 20px;
+    height: 75vh;
     text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-position: center;
   }
   .banner h1 {
     font-size: 25px;
     line-height: 22px;
-    /* align-self: center; */
-    /* margin: 138px 0 0 80px; */
+    margin: 178px 0 0 20px;
   }
   .my-btn {
     font-size: 12px;
@@ -438,6 +454,12 @@ form label {
     font-weight: bold;
     font-size: 50px;
     line-height: 52px;
+  }
+  .newsletter {
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-position: center;
   }
 }
 @media (max-width: 768px) {
