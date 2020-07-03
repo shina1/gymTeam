@@ -7,51 +7,61 @@
     <link rel="stylesheet" href="styles/bootstrap-css/bootstrap.css" />
     <link rel="stylesheet" href="styles/bootstrap-css/animate.min.css" />
     <link rel="stylesheet" href="styles/custom-css/team.css" />
+    <link rel="stylesheet" href="styles/custom-css/header-footer.css" />
+    <link rel="apple-touch-icon" href="public/logo192.png" />
+    <link rel="manifest" href="public/manifest.json" />
+
+    <link
+      href="styles/custom-css/fontawesome/fontawesome-free-5.13.1-web/css/all.css"
+      rel="stylesheet"
+    />
+    <link href="styles/custom-css/font-body.css" rel="stylesheet" />
   </head>
   <body>
     <!-- nav section  -->
-    <nav class="navbar navbar-expand-sm bg-light fixed-top shadow">
-      <a class="navbar-brand" href="#">
-        <img src="img/logoHead.png" alt="image"
-      /></a>
-      <div class="menu-btn">
-        <div class="menu-btn__burger"></div>
-      </div>
-      <div class="navbar-collapse navv" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto" id="ham">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">HOME</a>
-          </li>
+    <div class="d-flex flex-column m-0 w-100 maincon">
+      <header>
+        <div class="containe m-0 p-0 mx-auto">
+          <nav class="navbar navbar-expand-lg navbar-light main_nav_mb">
+            <a class="navbar-brand company_name" href="#"
+              >BE<span style="color: #ff4301;">FIT</span></a
+            >
 
-          <li class="nav-item">
-            <a class="nav-link" href="#">SERVICE</a>
-          </li>
+            <button class="outside outside_btn_nav_qobi">JOIN US</button>
+            <button
+              class="navbar-toggler nav_btn"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#features">PLAN</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#features">MEET THE TEAM</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features">BMI CALCULATOR</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features">BLOG</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features">ABOUT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features">CONTACT US</a>
-          </li>
-        </ul>
-        <button type="button" class="btn btn-danger nav-btn">
-          JOIN US
-        </button>
-      </div>
-    </nav>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav align-items-center">
+                <a class="nav-item nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+                <a class="nav-item nav-link" href="#">Services</a>
+                <a class="nav-item nav-link" href="#">Plans</a>
+                <a class="nav-item nav-link" href="#">Meet The Team</a>
+                <a class="nav-item nav-link active" href="#">BMI Calculator</a>
+                <a class="nav-item nav-link" href="#">Blog</a>
+                <a class="nav-item nav-link" href="#">About Us</a>
+                <a class="nav-item nav-link" href="#">Contact Us</a>
+                <button class="inside_btn_nav_qobi">JOIN US</button>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+    </div>
     <div class="container-fluid">
       <div class="row my-row">
         <div class="col-md-12 banner">
@@ -217,87 +227,140 @@
       </div>
     </div>
     <!-- footer section -->
-    <footer id="footer" class="pt-0 pl-0 pb-5 pr-0">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 footer-info">
-              <img src="img/logoFoot.png" alt="" />
-              <p class="mb-0">
-                Orci vel in vel, amet pellentesque. Nec in auctor diam duis sit.
-                Imperdiet in egestas eu consectetur eros, turpis. Sapien vitae
-                mauris eu ultrices suspendisse risus, malesuada nibh. Venenatis
-                orci neque quam quisque gravida ultrices. Vestibulum sit
-                pellentesque ultricies risus commodo neque, ac. Quis et dui arcu
-                urna sagittis ipsum volutpat diam. Amet.
-              </p>
-            </div>
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h3>EXPLORE</h3>
-              <ul class="p-0 m-0">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">SERVICE</a></li>
-                <li><a href="#">PLAN</a></li>
-                <li><a href="#">MEET THE TEAM</a></li>
-                <li><a href="#">BMI CALCULATOR</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">CONTACT US</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-2 col-md-6 footer-contact">
-              <div class="row">
-                <div class="col add">
-                  <h3>VISIT</h3>
-                  <p>
-                    100,STREET ADDRESS,<br />CITY,00188 <br />
-                    SATE
-                  </p>
+    <div class="d-flex flex-column m-0 w-100 maincon">
+      <footer class="mt-auto w-100 m-0 p-0 py-5">
+        <div class="containe m-0 p-0 mx-auto">
+          <div
+            class="d-flex w-100 m-0 p-0 justify-content-between align-items-stretch section_container-qobi"
+          >
+            <section class="d-flex flex-column zero-section-qobi m-0 p-0">
+              <div class="header m-0 p-0 w-100">
+                <h1 class="m-0 p-0">
+                  BEFIT <span style="color: #ff4301;">GYM</span>
+                </h1>
+              </div>
+              <div class="body m-0 p-0 w-100">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Doloribus officia aperiam rem voluptates pariatur excepturi
+                  ipsam quas vero incidunt quia, veniam qui ratione ut molestias
+                  earum, dolore, aliquam omnis? Nihil! Lorem ipsum dolor sit
+                  amet consectetur adipisicing elit. Doloribus officia aperiam
+                  rem voluptates pariatur excepturi ipsam quas vero incidunt
+                  quia, veniam.
+                </p>
+              </div>
+            </section>
+
+            <section class="d-flex flex-column m-0 p-0 one-section-qobi">
+              <div class="header m-0 p-0 w-100">
+                <h4 class="thead">EXPLORE</h4>
+              </div>
+              <nav class="navbar">
+                <div class="justify-content-start w-100">
+                  <div class="navbar-nav align-items-start">
+                    <a class="nav-item nav-link" href="#"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                    <a class="nav-item nav-link" href="#">Services</a>
+                    <a class="nav-item nav-link" href="#">Plans</a>
+                    <a class="nav-item nav-link" href="#">Meet The Team</a>
+                    <a class="nav-item nav-link active" href="#"
+                      >BMI Calculator</a
+                    >
+                    <a class="nav-item nav-link" href="#">Blog</a>
+                    <a class="nav-item nav-link" href="#">About Us</a>
+                    <a class="nav-item nav-link" href="#">Contact Us</a>
+                    <!-- <button class="m-0 p-0">JOIN US</button> -->
+                  </div>
                 </div>
-                <div class="col footer-links">
-                  <h3>LEGAL</h3>
-                  <ul>
-                    <li><a href="#">PRIVACY POLICY</a></li>
-                    <li><a href="#">TERMS</a></li>
-                  </ul>
+              </nav>
+            </section>
+
+            <section
+              class="d-flex flex-column m-0 p-0 justify-content-between two-section-qobi"
+            >
+              <div class="d-flex m-0 p-0 first-div-qobi">
+                <div class="d-flex flex-column m-0 p-0">
+                  <div class="header m-0 p-0 w-100">
+                    <h4 class="thead">VISIT</h4>
+                  </div>
+                  <div class="body m-0 p-0 w-100 street-qobi">
+                    <h4>100 STREET ADDRESS, APAPA, LEKKI, LAGOS</h4>
+                  </div>
+                </div>
+                <div class="d-flex flex-column m-0 p-0">
+                  <div class="header m-0 p-0 w-100">
+                    <h4 class="thead">LEGAL</h4>
+                  </div>
+                  <div class="body m-0 p-0 w-100">
+                    <a href=""><h4 class="mb-3">PRIVACY POLICY</h4></a>
+                    <a href=""><h4>TERMS</h4></a>
+                  </div>
                 </div>
               </div>
-              <div class="social-links">
-                <h3>FOLLOW US ON SOCIAL MEDIA</h3>
-                <a href="#" class="twitter"
-                  ><img src="img/tweet.png" alt="" />
-                </a>
-                <a href="#" class="twitter"
-                  ><img src="img/insta.png" alt="" />
-                </a>
-                <a href="#" class="twitter"
-                  ><img src="img/snap.png" alt="" />
-                </a>
-                <a href="#" class="twitter"
-                  ><img src="img/face.png" alt="" />
-                </a>
-                <a href="#" class="twitter"
-                  ><img src="img/youtube.png" alt="" />
-                </a>
+              <div class="m-0 p-0 pt-3 pb-5 second-div-qobi">
+                <div class="d-flex flex-column m-0 p-0">
+                  <div class="header m-0 p-0 w-100">
+                    <h4 class="thead">FOLLOW US ON SOCIAL MEDIA</h4>
+                  </div>
+                  <div class="d-flex body m-0 p-0 w-100 social-media-qobi">
+                    <div class="icon_container">
+                      <a href=""><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div class="icon_container">
+                      <a href=""><i class="fab fa-facebook-square"></i></a>
+                    </div>
+                    <div class="icon_container">
+                      <a href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="icon_container">
+                      <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="icon_container">
+                      <a href=""><i class="fab fa-pinterest"></i></a>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div class="col-lg-3 col-md-6 footer-newsletter">
-              <h3>SUBSCRIBE TO OUR NEWS LETTER</h3>
-              <form action="">
-                <input type="email" placeholder="your email here" />
-                <button type="button" class="btn">SUBSCRIBE</button>
-              </form>
-            </div>
+            </section>
+
+            <section class="only_mobile_section_qobi">
+              <div class="d-flex justify-content-between m-0 p-0 pb-5 w-100">
+                <a href=""><h4 class="thead">SITE MAP</h4></a>
+                <a href=""><h4 class="thead">PRIVACY POLICY</h4></a>
+                <a href=""><h4 class="thead">CAREERS</h4></a>
+              </div>
+            </section>
+
+            <section
+              class="d-flex flex-column justify-content-between m-0 p-0 three-section-qobi"
+            >
+              <div class="d-flex flex-column m-0 p-0 first-div-qobi">
+                <div class="header m-0 p-0 w-100">
+                  <h4 class="thead">SUBSCRIBE TO OUR NEWS LETTER</h4>
+                </div>
+                <div class="body m-0 p-0 w-100">
+                  <form class="d-flex flex-column align-items-end m-0 p-0">
+                    <input
+                      class="m-0"
+                      type="email"
+                      placeholder="Your Email Here"
+                    />
+                    <button>SUBSCRIBE</button>
+                  </form>
+                </div>
+              </div>
+              <div class="d-flex flex-column m-0 p-0 second-div-qobi">
+                <h4>&copy; 2020. BEFIT GYM ALL RIGHTS RESERVED</h4>
+              </div>
+            </section>
           </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="copyright">
-          &copy:2020<strong>BeFit Gym</strong>. All Rights Reserved.
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
     <script src="js/bootstrap-js/bootstrap.js"></script>
+    <script src="js/bmipage.js"></script>
     <script src="js/bootstrap-js/jquery.js"></script>
     <script src="js/bootstrap-js/popper.js"></script>
     <script src="js/navBar.js"></script>

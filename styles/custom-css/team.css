@@ -22,103 +22,6 @@ body {
   font-family: Bebas Neue;
 }
 /* ############################### styling for the header  ####################################### */
-.navbar {
-  background-color: #ffffff !important;
-  padding-left: 80px;
-  padding-right: 40px;
-  color: black;
-}
-.navbar img {
-  width: 70px;
-  height: 25px;
-  margin-left: 30px;
-}
-.navbar-dark .navbar-toggler span {
-  width: 30px;
-  height: 2px;
-  margin: 6px auto;
-  background: black;
-  color: black;
-  transition: all 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
-}
-nav ul {
-  margin-right: 120px !important;
-}
-
-nav ul li {
-  font-size: 13px;
-  color: var(--tmBlack);
-  padding-right: 1rem;
-  font-weight: bold !important;
-}
-nav ul li a:hover {
-  color: #04172a;
-}
-
-nav ul li a {
-  font-weight: bold !important;
-  color: var(--tmBlack);
-}
-.nav-btn {
-  width: 90px !important;
-  height: 40px !important;
-  border-radius: 10px;
-  background: var(--tmOrange);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 10px;
-  border: 0;
-  outline: 0;
-  padding: 6px 24px;
-  line-height: 10px;
-}
-.menu-btn {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 32px;
-  height: 80px;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
-  /* border: 3px solid #fff; */
-}
-.menu-btn__burger {
-  width: 32px;
-  height: 6px;
-  background: black;
-  border-radius: 5px;
-  transition: all 0.5s ease-in-out;
-  display: none;
-}
-.menu-btn__burger::before,
-.menu-btn__burger::after {
-  content: "";
-  position: absolute;
-  width: 32px;
-  height: 6px;
-  background: black;
-  border-radius: 5px;
-  transition: all 0.5s ease-in-out;
-}
-.menu-btn__burger::before {
-  transform: translateY(-10px);
-}
-.menu-btn__burger::after {
-  transform: translateY(10px);
-}
-/* ANIMATION */
-.menu-btn.open .menu-btn__burger {
-  transform: translateX(-50px);
-  background: transparent;
-  box-shadow: none;
-}
-.menu-btn.open .menu-btn__burger::before {
-  transform: rotate(45deg) translate(35px, -35px);
-}
-.menu-btn.open .menu-btn__burger::after {
-  transform: rotate(-45deg) translate(35px, 35px);
-}
 /* ----------------------- banner styling--------------------------------- */
 .banner {
   height: 125vh;
@@ -127,6 +30,7 @@ nav ul li a {
   /* object-fit: cover; */
   background-position: center;
   background-size: contain;
+  margin-top: -620px;
 }
 .banner h1 {
   font-style: normal;
@@ -299,95 +203,9 @@ form label {
   bottom: 90%;
 }
 /* ------------------ Footer styling-------------------------- */
-#footer {
-  background: var(--tmFootBack);
-  color: #eee;
-  height: auto;
-}
-#footer li {
-  list-style-type: none;
-}
-#footer h3 {
-  /* font-family: Bebas Neue; */
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 5px;
-  color: var(--tmOrange);
-}
-#footer .footer-top {
-  background: var(--tmFootBack);
-  padding: 60px 0 30px 0;
-}
-#footer .footer-top .footer-info {
-  margin-bottom: 30px;
-}
-#footer .footer-top .footer-info img {
-  margin: 0 0 20px 0;
-  /* width: 130px; */
-}
-#footer .footer-top .footer-info p {
-  /* font-family: Inter; */
-  display: block;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
-  color: #ffffff;
-  mix-blend-mode: normal;
-  width: 250px;
-}
-#footer .footer-top .social-links {
-  width: 250px;
-  margin-top: 25px;
-}
-#footer .footer-top .social-links a img {
-  margin: 5px;
-  text-decoration: none;
-}
-#footer .footer-top .footer-links {
-  margin-bottom: 30px;
-}
-#footer .footer-top .footer-links ul li {
-  padding: 0;
-}
-#footer .footer-top .footer-links ul li a {
-  color: var(--tmWhite);
-  /* font-family: Bebas Neue; */
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 5px;
-  color: #ffffff;
-  text-decoration-line: none;
-}
 
 /* responsive settings */
 @media (max-width: 575px) {
-  .navbar-nav {
-    display: none;
-  }
-  .navbar-nav.show {
-    display: block;
-  }
-  .menu-btn__burger {
-    display: block;
-  }
-  .navbar .navbar-toggler span {
-    background: black;
-    color: #fff;
-  }
-  .navbar {
-    align-items: center;
-  }
-  .navbar ul li {
-    margin-left: 120px;
-    margin-bottom: 10px;
-  }
-  .nav-btn {
-    margin-top: 20px;
-    margin-left: -10px;
-  }
   .banner h1 {
     font-size: 40px;
     line-height: 1.5;
@@ -412,13 +230,13 @@ form label {
   }
   .team-grp {
     justify-content: center;
-    margin-top: -190px;
+    margin-top: -510px;
   }
   form input {
     width: 100%;
   }
   .banner {
-    margin-top: 20px;
+    margin-top: -800px;
     height: 75vh;
     text-align: center;
     background-repeat: no-repeat;
@@ -439,7 +257,7 @@ form label {
   .overlay {
     position: relative;
     height: 100px;
-    bottom: 210%;
+    bottom: 480%;
   }
   /* .newsletter {
     height: auto;
